@@ -1,0 +1,32 @@
+.sigma{
+    font-size: 450; 
+ font-family: Impact; 
+ font-weight: 450; 
+}
+ .sig{
+    font-size: 500; 
+ font-family: Comic Sans MS; 
+ font-weight: 500; 
+ }
+ .sma{
+    font-size: 600; 
+ font-family: Arial; 
+ font-weight: 600; 
+ }
+body{
+    background-color: black; 
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+   background-color: black; 
+   color: white;
+}
+main{
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    color: white;
+}
