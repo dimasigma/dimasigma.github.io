@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+main{
+    background-color: blue;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+ul{
+    list-style-type: none ;
+}
+footer{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    height: 37%;
+}
