@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>murderry</title>
+    <style>
+        
+    body{
+    margin: 0;
+    font-family: Open Sans;
+    color: black;
+    background-color:wheat;
+}
+
+h1, p{
+    margin: 0;
+    font-size: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+/* header */
+
+
+.header-inner{
+    display: flex;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.logoImg{
+    width: 180px;
+    height: 122px;
+    margin-right: 20px;
+}
+
+nav{
+    height: 122px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style: none; /*убираем маркеры списка*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+/* posters */
+
+.text{
+    margin-left: 270px;
+}
+
+.postersInner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.movie{
+    width: 300px;
+    border: 3px dotted black;
+}
+
+.poster{
+    width: 300px;
+}
+/* footer */
+footer{
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 70px;
+}
+.miniLogo{
+width: 73px;
+height: 43px;
+float: left;
+margin-right: 20px;
+}
+.textFooter {
+display: flex;
+flex-direction: column;
+padding-left: 80px;
+}
+.footerP{
+color: #504D4D;
+font-weight: 900;
+}
+span{
+color: black;
+font-size: 28px;
+}
+header{
+    background-image: url("фон.jpeg");
+    height: 500px;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    padding-left: 70px; 
+    display: flex;
+justify-content: left;
+align-items: end;
+}   
+.imba{
+  border: 3px solid black;
+}
+    </style>
+</head>
+<body>
+    <div class="header-inner">
+        <div class="logo">
+            <img class="logoImg" src="images/logo.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#posters">О нас</a></li>
+                <li><a href="#contacts">О товарах</a></li>
+                <li><a href="#contacts">Ответы на вопросы</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+
+    </header>
+<article id="posters">
+    <div class="text">
+        <h1>Наш каталог</h1>
+    </div>
+    <div class="postersInner">
+        <div class="movie">
+            <a href="">
+                <img class="poster" src="">
+            </a>
+            <p>3990 рублей</p>
+        </div>
+        <div class="movie">
+            <a href="">
+                <img class="poster" src="">
+            </a>
+            <p>6990 рублей</p>
+        </div>
+        <div class="movie">
+            <a href="">
+                <img class="poster" src="">
+            </a>
+            <p>2990 рублей</p>
+        </div>
+    </div>
+</article>
+<main>
+    <footer id="contacts">
+        <div class="footerInner">
+            <img class="miniLogo" src="images/logo.png">
+            <div class="textFooter">
+                <p class="footerP">
+                    
+                </p>
+                <p class="footerP">
+
+                </p>
+                <p class="footerP1">© 2025 по вопросам <span class = "imba">8 800 555 35 35</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
